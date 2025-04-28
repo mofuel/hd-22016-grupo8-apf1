@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!--letra carrusel-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (íconos) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="stylenosotros.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<body>
+
+<!--header-->
+<nav class="navbar">
+    <div class="header-wrapper">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="img/logoabo.png" alt="Logo">
+      </a>
+
+      <!-- Menú de navegación -->
+      <ul class="navbar-nav flex-row align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-house"></i> Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nosotros.html"><i class="fa-solid fa-users"></i> Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-concierge-bell"></i> Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-pen-to-square"></i> Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+        <!--fin header-->
+
+    <!--carrusel-->
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <!-- Primer slide: Quiénes somos (resumen visual) -->
+            <div class="carousel-item active">
+                <img src="img/ca1.png" class="d-block w-100" alt="Nuestro enfoque legal">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Compromiso con el cliente</h1>
+                        <p>Ofrecemos un servicio legal cercano, profesional y basado en la confianza mutua, adaptándonos siempre a las necesidades de nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Segundo slide: Atención personalizada -->
+            <div class="carousel-item">
+                <img src="img/ca2.png" class="d-block w-100" alt="Atención personalizada">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Atención personalizada</h1>
+                        <p>Te escuchamos, entendemos tus necesidades y trabajamos contigo para ofrecerte soluciones legales adaptadas a tu situación particular.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Tercer slide: Nuestros valores -->
+            <div class="carousel-item">
+                <img src="img/ca3.png" class="d-block w-100" alt="Valores fundamentales">
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Valores fundamentales</h1>
+                        <p>Honestidad, integridad y transparencia guían todas nuestras decisiones. Trabajamos siempre en beneficio de nuestros clientes, con ética y compromiso.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    
+
+      <!-- About Start -->
+      <div class="container-fluid py-5 about bg-light">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="video border">
+                        <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/VeK4CODaDiU" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
+                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Quiénes Somos</h4>
+                    <h1 class="text-dark mb-4 display-5">Compromiso Legal con Resultados: Protección, Defensa y Asesoría</h1>
+                    <p class="text-dark mb-4">Somos un equipo de abogados comprometidos con la excelencia y la integridad, especializados en diversas ramas del derecho. Nos dedicamos a ofrecer un servicio personalizado, brindando asesoría legal de calidad y defendiendo los intereses de nuestros clientes con un enfoque ético y profesional. Con más de 10 años de experiencia, nuestra misión es ofrecer soluciones jurídicas efectivas que garanticen la protección y el bienestar de nuestros clientes.</p>
+                    <div class="row mb-4">
+                        <div class="col-lg-6">
+                            <h6 class="mb-3"><i class="fas fa-gavel me-2"></i>Asesoría en Derecho Corporativo</h6>
+                            <h6 class="mb-3"><i class="fas fa-balance-scale me-2 text-primary"></i>Defensa en Derecho Penal</h6>
+                            <h6 class="mb-3"><i class="fas fa-users me-2 text-secondary"></i>Asesoramiento en Derecho Laboral</h6>
+                        </div>
+                        <div class="col-lg-6">
+                            <h6 class="mb-3"><i class="fas fa-heart me-2"></i>Asesoría en Derecho de Familia</h6>
+                            <h6 class="mb-3"><i class="fas fa-home me-2 text-primary"></i>Consultoría en Derecho Inmobiliario</h6>
+                            <h6><i class="fas fa-lock me-2 text-secondary"></i>Compromiso con la Confidencialidad y Seguridad Jurídica</h6>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Modal Video -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+
+   <!--nuevos valores-->
+   
+   <!-- Programs Start -->
+   
+   <!-- Programs Start -->
+<div class="container-fluid program py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+            <h4 class="text-pink mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Conocenos</h4>
+            <h1 class="mb-5 display-3">Conoce nuestra misión, visión y valores, pilares fundamentales que guían cada acción de nuestra consultoría legal.</h1>
+        </div>
+
+        <div class="row">
+
+            <!-- Tarjeta 1 -->
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.2s">
+                <div class="program-item rounded">
+                    <div class="program-img position-relative">
+                        <div class="overflow-hidden img-border-radius">
+                            <img src="img/mision.png" class="img-fluid w-100" alt="English For Today">
+                        </div>
+                        <div class="px-4 py-2 bg-primary text-white program-rate">Misión</div>
+                    </div>
+                    <div class="program-text bg-white px-4 pb-3">
+                        <div class="program-text-inner">
+                            <a href="#" class="h4">Nuestra Esencia</a>
+                            <p class="mt-3 mb-0 fs-5">Brindar asesoría legal integral con excelencia, ética y compromiso, protegiendo los intereses de nuestros clientes y contribuyendo a una sociedad más justa.</p>
+                        </div>
+                    </div>
+                    <div class="program-teacher d-flex align-items-center border-top border-primary bg-white px-4 py-3">
+                        <img src="img/mi1.png" class="img-fluid rounded-circle p-2 border border-primary bg-white" alt="Teacher">
+                        <div class="ms-3">
+                            <h6 class="mb-0 text-primary">Equipo Jurídico</h6>
+                            <small>Consultores Especializados</small>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between px-4 py-2 bg-primary rounded-bottom">
+                        <small class="text-white"><i class="fas fa-gavel me-1"></i> Asesoría Legal</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.4s">
+                <div class="program-item rounded">
+                    <div class="program-img position-relative">
+                        <div class="overflow-hidden img-border-radius">
+                            <img src="img/vision.png" class="img-fluid w-100" alt="Graphics Arts">
+                        </div>
+                        <div class="px-4 py-2 bg-primary text-white program-rate">Visión</div>
+                    </div>
+                    <div class="program-text bg-white px-4 pb-3">
+                        <div class="program-text-inner">
+                            <a href="#" class="h4">Proyección a futuro</a>
+                            <p class="mt-3 mb-0 fs-5">Consolidarnos como una consultoría legal de referencia a nivel nacional, reconocida por la excelencia de nuestros servicios, la innovación en nuestras soluciones y el compromiso inquebrantable con la justicia y el bienestar de nuestros clientes.</p>
+                        </div>
+                    </div>
+                    <div class="program-teacher d-flex align-items-center border-top border-primary bg-white px-4 py-3">
+                        <img src="img/vi1.png" class="img-fluid rounded-circle p-2 border border-primary bg-white" alt="Teacher">
+                        <div class="ms-3">
+                            <h6 class="mb-0 text-primary">Equipo Legal</h6>
+                            <small>Consultores Especializados</small>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between px-4 py-2 bg-primary rounded-bottom">
+                        <small class="text-white"><i class="fas fa-gabel me-1"></i> Visión Estrategica</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.6s">
+                <div class="program-item rounded">
+                    <div class="program-img position-relative">
+                        <div class="overflow-hidden img-border-radius">
+                            <img src="img/valores.png" class="img-fluid w-100" alt="General Science">
+                        </div>
+                        <div class="px-4 py-2 bg-primary text-white program-rate">Valores</div>
+                    </div>
+                    <div class="program-text bg-white px-4 pb-3">
+                        <div class="program-text-inner">
+                            <a href="#" class="h4">Compromiso y Valores</a>
+                            <p class="mt-3 mb-0 fs-5">Basamos nuestro ejercicio profesional en la ética, la responsabilidad, la transparencia y el respeto, comprometiéndonos a defender los derechos e intereses de quienes confían en nosotros.</p>
+                        </div>
+                    </div>
+                    <div class="program-teacher d-flex align-items-center border-top border-primary bg-white px-4 py-3">
+                        <img src="img/va1.png" class="img-fluid rounded-circle p-2 border border-primary bg-white" alt="Teacher">
+                        <div class="ms-3">
+                            <h6 class="mb-0 text-primary">Equipo de Consultores</h6>
+                            <small>Especialistas en Derecho</small>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between px-4 py-2 bg-primary rounded-bottom">
+                        <small class="text-white"><i class="fas fa-handshake me-1"></i> Principios Fundamentales</small>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-- Programs End -->
+
+<!--Especialidades-->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<section class="pagina-servicios">
+  <section class="servicios-container">
+    <div class="experiencia-box">
+      <h1>Especialidades<br>Legales</h1>
+    </div>
+
+    <div class="servicios-contenido">
+        <h4 class="text-pink mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Que te ofrecemos</h4>
+      <h1 class="titulo-principal">Conoce nuestras especialidades</h1>
+
+      <div class="tarjetas-servicio">
+        <div class="tarjetas-scroll-wrapper">
+            <div class="tarjetas-servicio scroll-horizontal">
+                <!-- Derecho Corporativo -->
+                <div class="tarjeta">
+                    <div class="icono-servicio">
+                        <i class="fa fa-building"></i>
+                    </div>
+                    <h4>Derecho Corporativo</h4>
+                    <p>Asesoramiento integral en todos los aspectos legales que afectan a las empresas y sus operaciones.</p>
+                    <ul>
+                        <li><i class="fa fa-check text-success"></i> Constitución de Empresas</li>
+                        <li><i class="fa fa-check text-success"></i> Fusiones y Adquisiciones</li>
+                        <li><i class="fa fa-check text-success"></i> Contratos Comerciales</li>
+                        <li><i class="fa fa-check text-success"></i> Derecho Societario</li>
+                    </ul>
+                    <a href="#" class="btn-leer-mas" onclick="openModal('modal1')">Detalle <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Modal para Derecho Corporativo -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal1')">&times;</span>
+                        <div class="modal-header">
+                            <h2>Derecho Corporativo</h2>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Descripción del servicio</h3>
+                            <p>En Derecho Corporativo ofrecemos soluciones jurídicas para empresas, desde su constitución hasta su operación diaria. Nos encargamos de todas las necesidades legales de las empresas, incluyendo la negociación de contratos, acuerdos comerciales y la resolución de conflictos internos.</p>
+                            <img src="img/es1.png" alt="Derecho Corporativo">
+                            <br><br>
+                            <h3>Beneficios</h3>
+                            <ul>
+                                <li><b>Asesoría integral para tu empresa: </b> Asegura el cumplimiento normativo y la protección jurídica de tu negocio.</li>
+                                <li><b>Optimización de operaciones: </b> Reducimos riesgos legales y mejoramos la eficiencia empresarial.</li>
+                                <li><b>Resolución de conflictos comerciales: </b> Gestionamos disputas y negociaciones de manera efectiva.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Derecho Penal -->
+                <div class="tarjeta">
+                    <div class="icono-servicio"><i class="fa fa-gavel"></i></div>
+                    <h4>Derecho Penal</h4>
+                    <p>Defensa y asesoramiento legal en el ámbito penal para individuos y empresas.</p>
+                    <ul>
+                        <li><i class="fa fa-check text-success"></i> Defensa Penal</li>
+                        <li><i class="fa fa-check text-success"></i> Delitos Económicos</li>
+                        <li><i class="fa fa-check text-success"></i> Litigios Penales</li>
+                        <li><i class="fa fa-check text-success"></i> Asesoría en Procesos Judiciales</li>
+                    </ul>
+                    <a href="#" class="btn-leer-mas" onclick="openModal('modal2')">Detalle <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Modal para Derecho Penal -->
+                <div id="modal2" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal2')">&times;</span>
+                        <div class="modal-header">
+                            <h2>Derecho Penal</h2>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Descripción del servicio</h3>
+                            <p>Brindamos defensa legal en casos penales, con especial atención en delitos económicos, crímenes financieros, y asesoramiento en la representación ante los tribunales. Nuestro enfoque es proteger los derechos de nuestros clientes a través de una defensa robusta y estrategias jurídicas personalizadas.</p>
+                            <img src="img/es2.png" alt="Derecho Penal">
+                            <br><br>
+                            <h3>Beneficios</h3>
+                            <ul>
+                                <li><b>Defensa efectiva en casos complejos: </b> Proteger tus derechos frente a acusaciones criminales.</li>
+                                <li><b>Representación profesional: </b> Contamos con abogados expertos en el área penal para guiarte en todo el proceso.</li>
+                                <li><b>Atención personalizada: </b> Nos aseguramos de que recibas un servicio a medida de tus necesidades y preocupaciones.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Derecho Laboral -->
+                <div class="tarjeta">
+                    <div class="icono-servicio"><i class="fa fa-briefcase"></i></div>
+                    <h4>Derecho Laboral</h4>
+                    <p>Asesoría en temas laborales, tanto para empleadores como empleados, garantizando los derechos de todas las partes.</p>
+                    <ul>
+                        <li><i class="fa fa-check text-success"></i> Contratos Laborales</li>
+                        <li><i class="fa fa-check text-success"></i> Despidos y Resolución de Conflictos</li>
+                        <li><i class="fa fa-check text-success"></i> Asesoría en Licencias y Jornadas Laborales</li>
+                        <li><i class="fa fa-check text-success"></i> Defensa ante Demandas Laborales</li>
+                    </ul>
+                    <a href="#" class="btn-leer-mas" onclick="openModal('modal3')">Detalle <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Modal para Derecho Laboral -->
+                <div id="modal3" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal3')">&times;</span>
+                        <div class="modal-header">
+                            <h2>Derecho Laboral</h2>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Descripción del servicio</h3>
+                            <p>Ofrecemos un servicio integral en derecho laboral para proteger tanto los derechos de los empleados como de los empleadores. Nuestro enfoque abarca desde la creación de contratos laborales hasta la resolución de disputas y la defensa en juicios laborales.</p>
+                            <img src="img/es3.png" alt="Derecho Laboral">
+                            <br><br>
+                            <h3>Beneficios</h3>
+                            <ul>
+                                <li><b>Asesoría preventiva y estratégica: </b> Evita problemas legales antes de que ocurran.</li>
+                                <li><b>Resolución de conflictos laborales: </b> Abordamos y solucionamos disputas entre empleados y empleadores.</li>
+                                <li><b>Defensa legal completa: </b> Representamos a nuestros clientes en todas las etapas del proceso judicial laboral.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Derecho de Familia -->
+                <div class="tarjeta">
+                    <div class="icono-servicio"><i class="fa fa-users"></i></div>
+                    <h4>Derecho de Familia</h4>
+                    <p>Atención integral en casos de familia, incluyendo divorcios, custodia y herencias.</p>
+                    <ul>
+                        <li><i class="fa fa-check text-success"></i> Divorcios y Separaciones</li>
+                        <li><i class="fa fa-check text-success"></i> Custodia de Hijos</li>
+                        <li><i class="fa fa-check text-success"></i> Sucesiones y Herencias</li>
+                        <li><i class="fa fa-check text-success"></i> Acuerdos Prenupciales</li>
+                    </ul>
+                    <a href="#" class="btn-leer-mas" onclick="openModal('modal4')">Detalle <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Modal para Derecho de Familia -->
+                <div id="modal4" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal4')">&times;</span>
+                        <div class="modal-header">
+                            <h2>Derecho de Familia</h2>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Descripción del servicio</h3>
+                            <p>Nos especializamos en casos de derecho de familia, ayudando a nuestros clientes con divorcios, custodias, herencias y demás disputas familiares. A través de un enfoque sensible y profesional, buscamos soluciones justas que protejan los derechos de todos los involucrados.</p>
+                            <img src="img/es4.png" alt="Derecho de Familia">
+                            <br><br>
+                            <h3>Beneficios</h3>
+                            <ul>
+                                <li><b>Soluciones rápidas y efectivas: </b> Facilitamos acuerdos amigables en cuestiones familiares.</li>
+                                <li><b>Protección legal integral: </b> Velamos por los derechos de todos los miembros de la familia.</li>
+                                <li><b>Confidencialidad y empatía: </b> Tratamos cada caso con discreción y comprensión.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Derecho Inmobiliario -->
+                <div class="tarjeta">
+                    <div class="icono-servicio"><i class="fa fa-home"></i></div>
+                    <h4>Derecho Inmobiliario</h4>
+                    <p>Asesoría y representación en temas legales relacionados con bienes inmuebles y transacciones inmobiliarias.</p>
+                    <ul>
+                        <li><i class="fa fa-check text-success"></i> Compra y Venta de Propiedades</li>
+                        <li><i class="fa fa-check text-success"></i> Contratos de Arrendamiento</li>
+                        <li><i class="fa fa-check text-success"></i> Desarrollos Inmobiliarios</li>
+                        <li><i class="fa fa-check text-success"></i> Litigios Inmobiliarios</li>
+                    </ul>
+                    <a href="#" class="btn-leer-mas" onclick="openModal('modal5')">Detalle <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Modal para Derecho Inmobiliario -->
+                <div id="modal5" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal('modal5')">&times;</span>
+                        <div class="modal-header">
+                            <h2>Derecho Inmobiliario</h2>
+                        </div>
+                        <div class="modal-body">
+                            <h3>Descripción del servicio</h3>
+                            <p>Ofrecemos servicios legales especializados en el sector inmobiliario, cubriendo desde la compra y venta de propiedades hasta la resolución de disputas legales sobre inmuebles. También gestionamos desarrollos inmobiliarios y redactamos contratos de arrendamiento.</p>
+                            <img src="img/es5.png" alt="Derecho Inmobiliario">
+                            <br><br>
+                            <h3>Beneficios</h3>
+                            <ul>
+                                <li><b>Seguridad en transacciones inmobiliarias: </b> Garantizamos que tus operaciones sean legales y seguras.</li>
+                                <li><b>Redacción de contratos personalizados: </b> Creamos contratos claros y adaptados a tus necesidades.</li>
+                                <li><b>Resolución eficiente de litigios: </b> Solucionamos disputas rápidamente para evitar complicaciones.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+          <!-- Puntos de navegación -->
+          <div class="scroll-dots">
+            <span class="dot" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+
+<!--fin especialidades-->
+
+<!-- miembros -->
+
+<!-- Team Start -->
+<!-- Team Start -->
+<div class="container-fluid team py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-pink mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Nuestro equipo</h4>
+            <h1 class="display-4 mb-4">Conozca a Nuestro Equipo de Expertos</h1>
+            <p class="mb-0">Contamos con un equipo de abogados altamente cualificados en distintas áreas del derecho, comprometidos con brindar soluciones legales efectivas y adaptadas a las necesidades de cada cliente.</p>
+        </div>
+        
+        <div class="row g-4">
+            <!-- Columna 1 -->
+            <div class="col-md-3 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/per8 (1).png" class="img-fluid rounded-top w-100" alt="Abogado 1">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-title p-4">
+                        <h4 class="mb-0">David García</h4>
+                        <p class="mb-0">Abogado Corporativo</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna 2 -->
+            <div class="col-md-3 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/per8 (2).png" class="img-fluid rounded-top w-100" alt="Abogada 2">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-title p-4">
+                        <h4 class="mb-0">Sarah Pérez</h4>
+                        <p class="mb-0">Abogada Penalista</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna 3 -->
+            <div class="col-md-3 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/per8 (3).png" class="img-fluid rounded-top w-100" alt="Abogado 3">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-title p-4">
+                        <h4 class="mb-0">Carlos Ruiz</h4>
+                        <p class="mb-0">Abogado Laboral</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna 4 -->
+            <div class="col-md-3 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/per8 (4).png" class="img-fluid rounded-top w-100" alt="Abogada 4">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-title p-4">
+                        <h4 class="mb-0">Isabel García</h4>
+                        <p class="mb-0">Abogada de Familia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Segunda fila (más tarjetas) -->
+        <div class="row g-4">
+            <!-- Columna 5 -->
+            <div class="col-md-3 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/per8 (5).png" class="img-fluid rounded-top w-100" alt="Abogado 5">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-title p-4">
+                        <h4 class="mb-0">Juan Pérez</h4>
+                        <p class="mb-0">Abogado Inmobiliario</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna 6 -->
+            <div class="col-md-3 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/per8 (6).png" class="img-fluid rounded-top w-100" alt="Abogada 6">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-title p-4">
+                        <h4 class="mb-0">Laura Martínez</h4>
+                        <p class="mb-0">Abogada de Derecho Penal</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna 7 -->
+            <div class="col-md-3 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/per8 (7).png" class="img-fluid rounded-top w-100" alt="Abogada 7">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-title p-4">
+                        <h4 class="mb-0">Cristina Gómez</h4>
+                        <p class="mb-0">Abogada de Derecho de Familia</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna 8 -->
+            <div class="col-md-3 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="team-item">
+                    <div class="team-img">
+                        <img src="img/per8 (8).png" class="img-fluid rounded-top w-100" alt="Abogada 8">
+                        <div class="team-icon">
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-title p-4">
+                        <h4 class="mb-0">Olga Torres</h4>
+                        <p class="mb-0">Directora de Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Miembros End -->
+
+<!--footer-->
+
+
+<div class="container">
+    <div class="cta-section row align-items-center">
+        <div class="col-md-8 cta-text">
+          <h2>¿Necesitas asesoría legal?</h2>
+          <p>Averigua todos los servicios que tenemos para tí</p>
+        </div>
+        <div class="col-md-4 cta-button">
+          <a href="#" class="btn btn-dark">Servicios</a>
+        </div>
+      </div>      
+  </div>
+  
+  <!-- Footer -->
+  
+  <footer class="footer-main text-center text-lg-start">
+    <div class="container text-md-start mt-5">
+      <div class="row mt-3">
+        <!-- Información de la empresa -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h5 class="text-uppercase">ProActa Abogados</h5>
+          <p>Asesoría legal especializada para proteger tus derechos.</p>
+          <p>© 2025 [Nombre de tu firma]. Todos los derechos reservados.</p>
+        </div>
+  
+        <!-- Servicios -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase">Servicios</h5>
+          <a href="#">Derecho Corporativo</a>
+          <a href="#">Derecho Penal</a>
+          <a href="#">Derecho de Familia</a>
+          <a href="#">Consultoría Empresarial</a>
+        </div>
+  
+        <!-- Empresa -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase">Nosotros</h5>
+          <a href="#">Quiénes somos</a>
+          <a href="#">Misión y Visión</a>
+          <a href="#">Nuestro Equipo</a>
+          <a href="#">Testimonios</a>
+        </div>
+  
+        <!-- Información Legal -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h5 class="text-uppercase">Información Legal</h5>
+          <a href="#">Términos y Condiciones</a>
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Política de Cookies</a>
+        </div>
+  
+        <!-- Redes sociales -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+          <h5 class="text-uppercase">Síguenos</h5>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Footer End -->
+  
+
+<!--fin de la pagina valores--> 
+ <!-- Bootstrap JS Bundle (para que funcione el carrusel) -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
+ <script src="nosotros.js"></script>
+
+<!--terminó del carrusel-->   
+
+</body>
+</html>
+
+
+   

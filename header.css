@@ -1,0 +1,63 @@
+.navbar {
+    padding: 2rem 4rem;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    height: 150px;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+    transform: scale(1.2);
+    transform-origin: left center;
+    transform: scale(2.5);
+  }
+
+  .navbar-nav {
+    gap: 4rem;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .nav-link {
+    color: #000;
+    font-size: 0.9rem;
+  }
+
+  .nav-link i {
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 0.2rem;
+    transition: color 0.3s ease; /* Agregado para suavizar la transición del color */
+  }
+
+  .nav-link:hover i {
+    color: #007BFF;
+  }
+
+  .nav-link:hover {
+    color: #007BFF;
+  }
+  
+  
+  .nav-link.active,
+  .nav-link:hover {
+    color: #007BFF;
+  }
+
+  .nav-link:focus i, 
+.nav-link:active i {
+  color: #007BFF;
+}
+
+
+  /* Centrado del contenido con espacio proporcional a izquierda y derecha */
+  .header-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
