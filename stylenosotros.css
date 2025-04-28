@@ -1,0 +1,678 @@
+/* Ajustes generales del carrusel */
+.carousel {
+    margin-bottom: 4rem;
+  }
+
+  #myCarousel {
+    font-family: 'Poppins', sans-serif;
+    color:#000000
+  }
+  
+  #myCarousel .carousel-caption h1 {
+    font-weight: 700; /* Bien grueso */
+    color:#fbfbfb;
+    font-size: 3rem;
+}
+
+#myCarousel .carousel-caption p {
+    color:#eee;
+    font-size: 1.5rem;
+
+}
+  
+  /* Posicionamiento del texto del carrusel */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    color: #000000
+  }
+  
+  /* Definimos el alto de cada slide */
+  .carousel-item {
+    height: 32rem;
+  }
+  
+  /* Ajustamos las imágenes para que cubran el área del slide */
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+/*Quienes somos*/
+/*** About Start ***/
+
+.about .text-primary {
+    color: #ff69b4 !important; /* El "About Us" en rosado */
+}
+
+.about .text-primary.border-bottom {
+    border-color: #ff69b4 !important; /* Línea rosada */
+}
+
+
+.about h1 {
+    color: #223e5d !important; /* El título grande en azul marino */
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about p {
+    color:#325070 !important; /* El párrafo en azul marino */
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+}
+
+.about h6 {
+    color: #0d1b2a !important; /* Los ítems de lista en azul marino */
+    font-family: 'Poppins', sans-serif;
+}
+
+.video {
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../img/about.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.video .btn-play {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: 18px 20px 18px 28px;
+}
+
+.video .btn-play:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: var(--bs-secondary);
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video .btn-play:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: var(--bs-primary);
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+.video .btn-play img {
+    position: relative;
+    z-index: 3;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.video .btn-play span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid var(--bs-white);
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+
+.video {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), 
+    url(https://img.youtube.com/vi/VeK4CODaDiU/maxresdefault.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+#videoModal {
+    z-index: 99999;
+}
+
+#videoModal .modal-dialog {
+    position: relative;
+    max-width: 800px;
+    margin: 60px auto 0 auto;
+}
+
+#videoModal .modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+#videoModal .close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    top: -30px;
+    z-index: 999;
+    font-size: 30px;
+    font-weight: normal;
+    color: #FFFFFF;
+    background: #000000;
+    opacity: 1;
+}
+
+.video.border {
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.about {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*** About End ***/
+
+/*** Programs Start ***/
+/* Fondo general */
+.program {
+    background-color: #e6eff9;
+}
+
+/* Títulos dentro de .program */
+.program .title-border-radius {
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.program h1 {
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: #333366;
+}
+
+/* Cada tarjeta en .program */
+.program .program-item {
+    background: white;
+    border-radius: 20px !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 15px;
+}
+
+.text-pink {
+    color: #ff4081; /* El rosado que estás usando en tu botón */
+}
+
+.text-pink.border-bottom {
+    border-color: #ff4081 !important;
+}
+
+
+/* Imagen del programa */
+.program .program-img {
+    position: relative;
+}
+
+.program .program-img img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s ease; /* <<< Añadido para la animación suave */
+}
+
+.program .program-img:hover img {
+    transform: scale(1.5); /* <<< Agranda la imagen al pasar el mouse */
+}
+
+/* Precio */
+.program .program-rate {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff4081;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Texto */
+.program .program-text {
+    flex-grow: 1;
+}
+
+.program .program-text .h4,
+.program .program-text a.h4 {
+    color: #333366;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.program .program-text p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Información del profesor */
+.program .program-teacher {
+    border-top: 1px solid #eee;
+    margin-top: auto;
+}
+
+.program .program-teacher img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding: 2px;
+}
+
+/* Footer info (Sits, Lessons, Hours) */
+.program .d-flex.justify-content-between {
+    background-color: #ff4081;
+    font-size: 13px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Botón */
+.program .btn-border-radius {
+    border-radius: 30px;
+    background-color: #ff4081;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px; /* <<< Añadido para bajarlo */
+}
+
+.program .btn-border-radius:hover {
+    background-color: #ff70a6;
+}
+
+/* Correcciones adicionales */
+.program .img-border-radius {
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+
+.program .program-text-inner {
+    padding: 20px 0;
+}
+
+/* Tarjetas horizontalmente con Bootstrap */
+.program .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.program .col-md-6, 
+.program .col-lg-6, 
+.program .col-xl-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Ajuste adicional para que todas las tarjetas tengan mismo alto */
+.program .program-item {
+    height: 100%;
+}
+
+
+/*especialidad*/
+
+  /*tarjetas*/
+  .pagina-servicios {
+    background-color: #f5f7ff;
+    color: #333;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Este es el espacio visible para las tarjetas */
+.servicios-contenido {
+    flex: 1;
+    overflow: hidden;
+}
+
+.pagina-servicios .servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pagina-servicios .experiencia-box {
+    background-color: #e6eff9;
+    color: #0a315b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 300%;
+    max-width: 300px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+.pagina-servicios .experiencia-box h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.pagina-servicios .servicios-contenido {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.pagina-servicios .subtitulo {
+    color: #ff4500;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pagina-servicios .titulo-principal {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #15233c;
+}
+
+.tarjetas-servicio {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 16px;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.tarjetas-servicio .tarjeta {
+    /* Ajustamos el tamaño de las tarjetas para mostrar solo tres */
+    flex: 0 0 calc(33.33% - 20px); /* 3 tarjetas visibles, con 20px de separación */
+    scroll-snap-align: start;
+    background-color: #edd9ec;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+}
+
+.pagina-servicios .tarjetas-servicio .tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye los elementos verticalmente */
+    flex-shrink: 0;
+    width: calc((100% - 40px) / 3); /* 3 tarjetas visibles con 2 gaps de 20px */
+    min-height: 480px; /* Asegura misma altura para todas */
+    background-color: #f6e6f5;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    scroll-snap-align: start;
+  }
+  
+
+
+.pagina-servicios .tarjetas-servicio .tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.pagina-servicios .icono-servicio {
+    width: 75px;
+    height: 75px;
+    border: 5px solid #fff;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #155ab6;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.pagina-servicios .scroll-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pagina-servicios .scroll-dots .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.pagina-servicios .scroll-dots .dot.active {
+    background-color: #155ab6;
+}
+
+.pagina-servicios .btn-leer-mas {
+    align-self: flex-start;
+    margin-top: auto; /* Esto empuja el botón hacia el fondo de la tarjeta */
+    padding: 10px 20px;
+    background-color: #155ab6;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .pagina-servicios .btn-leer-mas:hover {
+    background-color: #4fa3e7;
+    transform: translateY(-3px);
+  }
+  
+  .pagina-servicios .btn-leer-mas:active {
+    background-color: #0a315b;
+    transform: translateY(1px);
+  }
+  
+  /*modal*/
+  /* Estilos del Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 60px;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  .modal-header {
+    background-color: #f8def4;
+    color: rgb(60, 39, 39);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 15px;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .modal-body img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+
+  
+
+  /* Estilo del botón de cerrar */
+  .close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/*fin especialidad*/
+/*miembros*/
+/*** Team Start ***/
+/* Team Start */
+.team .container .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+    gap: 20px; /* Espacio entre columnas */
+    grid-template-rows: auto; /* Esto ayuda a que las filas se ajusten automáticamente */
+    margin-bottom: 30px; /* Asegura que haya un margen en la parte inferior si es necesario */
+    max-width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+}
+
+/* Resto del código igual */
+.team .team-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Agregar sombra para resaltar */
+    min-width: 300px; /* Establece un ancho mínimo para cada tarjeta */
+    padding: 10px;
+}
+
+/* Ajuste de imágenes dentro de las tarjetas */
+.team .team-item .team-img {
+    position: relative;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-grow: 1;
+}
+
+/* Las imágenes deben llenar el espacio disponible y no distorsionarse */
+.team .team-item .team-img img {
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team .team-item:hover .team-img img {
+    transform: scale(1.1);
+}
+
+.team .team-item .team-img::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.5s;
+}
+
+.team .team-item:hover .team-img::after {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.team .team-item .team-img .team-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin-bottom: -100%;
+    transition: 0.5s;
+    z-index: 9;
+}
+
+.team .team-item:hover .team-img .team-icon {
+    margin-bottom: 0;
+}
+
+.team .team-item .team-title {
+    color: var(--bs-white);
+    background: var(--bs-primary);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s;
+}
+
+.team .team-item .team-title h4 {
+    color: var(--bs-white);
+}
+
+.team .team-item:hover .team-title {
+    background: var(--bs-dark);
+}
+/* Team End */
