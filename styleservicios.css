@@ -1,0 +1,431 @@
+/* Reset general */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7ff;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #003366;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Servicios - PÁGINA SERVICIOS LEGALES */
+.pagina-servicios {
+  background-color: #f5f7ff;
+  padding: 0;
+}
+
+.servicios-contenido {
+  flex: 1;
+  overflow: hidden;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.pagina-servicios .servicios-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pagina-servicios .experiencia-box {
+  background-color: #e6eff9;
+  color: #0a315b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 300%;
+  max-width: 300px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+}
+
+.pagina-servicios .experiencia-box h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.pagina-servicios .subtitulo {
+  color: #ff4500;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pagina-servicios .titulo-principal {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #15233c;
+}
+
+.tarjetas-servicio {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 16px;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.tarjetas-servicio .tarjeta {
+  flex: 0 0 calc(33.33% - 20px);
+  scroll-snap-align: start;
+  background-color: #f6e6f5;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc((100% - 40px) / 3);
+  min-height: 480px;
+}
+
+.tarjetas-servicio .tarjeta:hover {
+  transform: translateY(-5px);
+}
+
+.icono-servicio {
+  width: 75px;
+  height: 75px;
+  border: 5px solid #fff;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #155ab6;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.scroll-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.scroll-dots .dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 4px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.scroll-dots .dot.active {
+  background-color: #155ab6;
+}
+
+.btn-leer-mas {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 10px 20px;
+  background-color: #155ab6;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-leer-mas:hover {
+  background-color: #4fa3e7;
+  transform: translateY(-3px);
+}
+
+.btn-leer-mas:active {
+  background-color: #0a315b;
+  transform: translateY(1px);
+}
+
+/* SECCIÓN: Servicios Legales */
+.servicios-container {
+  padding: 60px 20px;
+  background-color: #f5f7ff;
+  text-align: center;
+}
+
+.servicios-titulo {
+  font-size: 36px;
+  color: #15233c;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.servicios-descripcion {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.servicios-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #f6e6f5;
+  padding: 24px;
+  border-radius: 12px;
+  width: 260px;
+  min-height: 380px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card .icon {
+  font-size: 48px;
+  background-color: #fff;
+  border: 5px solid #fff;
+  width: 75px;
+  height: 75px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #155ab6;
+  margin-bottom: 16px;
+}
+
+.service-card h2 {
+  font-size: 24px;
+  color: #0a315b;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.service-card button {
+  background-color: #155ab6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.service-card button:hover {
+  background-color: #4fa3e7;
+  transform: translateY(-3px);
+}
+
+.service-card button:active {
+  background-color: #0a315b;
+  transform: translateY(1px);
+}
+
+/* Opcional: Responsive para móvil */
+@media (max-width: 768px) {
+  .servicios-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    width: 90%;
+  }
+}
+
+
+
+/* Especialistas */
+.especialistas {
+  text-align: center;
+  margin-top: 60px;
+  padding: 30px;
+}
+
+.especialistas h2 {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.especialistas-lista {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.especialista-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.especialista-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.especialista-card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #003366;
+}
+
+.especialista-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Proceso de contratación */
+.proceso-contratacion {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.proceso-contratacion h2 {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 30px;
+}
+
+.pasos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.paso {
+  background: #eef2f3;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+}
+
+.paso h3 {
+  font-size: 22px;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.paso p {
+  font-size: 16px;
+  color: #555;
+}
+
+.proceso-contratacion .paso i {
+  color: #155ab6;
+  margin-right: 10px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+
+/* Formulario contacto */
+.contacto-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.contacto-container h1 {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.contacto-container p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  width: 320px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+}
+
+.formulario-contacto textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.formulario-contacto button {
+  padding: 12px 25px;
+  background-color: #2e7d32;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario-contacto button:hover {
+  background-color: #1b5e20;
+}
+
+/* Mensaje de éxito */
+.mensaje-exito {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 18px;
+}
