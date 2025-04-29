@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7ff;
+}
+
+.contacto-page {
+    display: flex;
+    min-height: 100vh;
+}
+
+.contacto-page .contacto-imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7ff; /* o blanco si prefieres */
+    padding: 20px;
+}
+
+.contacto-page .contacto-imagen img {
+    max-width: 80%;
+    height: auto;
+    max-height: 90vh; /* Para que no ocupe toda la pantalla */
+    object-fit: contain;
+    border-radius: 12px; /* Opcional: bordes redondeados */
+}
+
+
+.contacto-page .contacto-formulario {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto-page .contacto-formulario h1 {
+    font-size: 36px;
+    color: #15233c;
+    margin-bottom: 10px;
+}
+
+.contacto-page .contacto-formulario p {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.contacto-page .formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto-page .formulario-contacto input,
+.contacto-page .formulario-contacto textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contacto-page .formulario-contacto button {
+    background-color: #155ab6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contacto-page .formulario-contacto button:hover {
+    background-color: #4fa3e7;
+    transform: translateY(-2px);
+}
+
+.contacto-page .mensaje-exito {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .contacto-page {
+        flex-direction: column;
+    }
+    .contacto-page .contacto-imagen {
+        height: 300px;
+    }
+}
