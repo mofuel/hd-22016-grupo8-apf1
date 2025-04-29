@@ -1,0 +1,50 @@
+/* blog.css */
+
+/* SECCIÓN DE TARJETAS (sin fondo) */
+.blog-cards-section {
+    background: none;
+    /* si antes había padding o border-radius, puedes conservarlos o eliminarlos */
+  }
+  
+  /* TARJETA */
+  .blog-card .card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  .blog-card .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* IMAGEN SUPERIOR (más alta en sentido vertical) */
+  .blog-card .card-img-top {
+    width: 100%;
+    height: 250px;       /* aumentado de 200px a 250px */
+    object-fit: cover;
+  }
+  
+  /* CUERPO DE LA TARJETA */
+  .blog-card .card-body {
+    padding: 1rem;
+  }
+  .blog-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .blog-card .card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  .blog-card .card-link {
+    font-weight: 600;
+    color: #6995B1;
+    text-decoration: none;
+  }
+  .blog-card .card-link:hover {
+    text-decoration: underline;
+  }
+  
