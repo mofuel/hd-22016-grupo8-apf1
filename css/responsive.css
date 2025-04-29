@@ -1,0 +1,193 @@
+/* 
+ * ProActa Abogados - Responsive Stylesheet
+ * responsive.css
+ */
+
+/* ===== Extra Small Devices (up to 575.98px) ===== */
+@media (max-width: 575.98px) {
+    .section-header h2 {
+      font-size: 1.75rem;
+    }
+
+    .carousel-caption h1 {
+      font-size: 2rem;
+    }
+    
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+    
+    .service-card, 
+    .benefit-card, 
+    .testimonial-card {
+      padding: 1.25rem;
+    }
+    
+    .contact-form-container {
+      padding: 1.25rem;
+    }
+    
+    .cta-content h2 {
+      font-size: 1.75rem;
+    }
+    
+    .footer h3 {
+      font-size: 1.5rem;
+    }
+    
+    .footer h4 {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* ===== Small Devices (576px - 767.98px) ===== */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .section-header h2 {
+      font-size: 2rem;
+    }
+    
+    
+    .carousel-caption h1 {
+      font-size: 2.5rem;
+    }
+    
+    .carousel-caption p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* ===== Medium Devices (768px - 991.98px) ===== */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .section-header h2 {
+      font-size: 2.25rem;
+    }
+    
+    .carousel-caption h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  /* ===== All Mobile Devices (up to 991.98px) ===== */
+  @media (max-width: 991.98px) {
+    html {
+      scroll-padding-top: 60px;
+    }
+    
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+    
+    #mainNav {
+      background-color: var(--primary-color);
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    
+    .navbar-collapse {
+      background-color: var(--primary-color);
+      padding: 1rem;
+      border-radius: var(--border-radius);
+    }
+    
+    .nav-link {
+      padding: 0.75rem 0 !important;
+      text-align: center;
+    }
+    
+    .nav-link::after {
+      bottom: 5px;
+    }
+    
+    .hero-carousel {
+      height: 80vh;
+    }
+    
+    .carousel-item {
+      height: 80vh;
+    }
+    
+    .cta-content {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    
+    .cta-info {
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .footer {
+      text-align: center;
+    }
+    
+    .footer h4::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .social-links {
+      justify-content: center;
+    }
+    
+    .footer-links a:hover {
+      transform: none;
+    }
+    
+    .footer-contact p {
+      justify-content: center;
+    }
+    
+    .back-to-top {
+      right: 15px;
+      bottom: 15px;
+    }
+  }
+  
+  /* ===== Large Devices (992px - 1199.98px) ===== */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel-caption h1 {
+      font-size: 3.25rem;
+    }
+  }
+  
+  /* ===== Extra Large Devices (1200px and up) ===== */
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  /* Print Styles */
+  @media print {
+    .navbar, 
+    .hero-carousel, 
+    .cta-section, 
+    .footer, 
+    .back-to-top {
+      display: none !important;
+    }
+    
+    body {
+      background-color: white !important;
+      color: black !important;
+    }
+    
+    .services-section,
+    .benefits-section,
+    .testimonials-section {
+      padding: 1rem 0 !important;
+    }
+    
+    .section-header::after {
+      display: none !important;
+    }
+    
+    .benefit-card, 
+    .service-card, 
+    .testimonial-card {
+      box-shadow: none !important;
+      border: 1px solid #ddd !important;
+    }
+  }
+

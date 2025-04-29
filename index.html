@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProActa Abogados | INICIO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/Inicio_style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="logo-text">ProActa <span class="logo-accent">Abogados</span></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Carousel -->
+  <section id="inicio" class="hero-carousel">
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="Firma de abogados ProActa">
+          <div class="carousel-caption">
+            <h1 class="animate__animated animate__fadeInUp">Expertos en Derecho a su Servicio</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Soluciones legales innovadoras adaptadas a sus necesidades</p>
+            <a href="#contacto" class="btn btn-primary animate__animated animate__fadeInUp animate__delay-2s">Consulta Gratuita</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="Profesionales de ProActa">
+          <div class="carousel-caption">
+            <h1 class="animate__animated animate__fadeInUp">Abogados con Experiencia</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Más de 15 años resolviendo casos complejos</p>
+            <a href="#contacto" class="btn btn-primary animate__animated animate__fadeInUp animate__delay-2s">Contáctenos</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="Instalaciones de ProActa">
+          <div class="carousel-caption">
+            <h1 class="animate__animated animate__fadeInUp">Defendemos sus Derechos</h1>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Asesoramiento personalizado en cada caso</p>
+            <a href="#contacto" class="btn btn-primary animate__animated animate__fadeInUp animate__delay-2s">Solicitar Cita</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section id="nosotros" class="benefits-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>¿Por qué elegir <span class="text-primary">ProActa Abogados</span>?</h2>
+        <p class="lead">Nuestra firma ofrece servicios legales de excelencia con un enfoque centrado en el cliente</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <h3>Experiencia Probada</h3>
+            <p>Más de 15 años de experiencia en casos de alta complejidad con resultados exitosos.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="bi bi-people"></i>
+            </div>
+            <h3>Equipo Especializado</h3>
+            <p>Abogados especializados en diversas áreas del derecho para atender cualquier necesidad legal.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="bi bi-clipboard-check"></i>
+            </div>
+            <h3>Enfoque Personalizado</h3>
+            <p>Análisis detallado de cada caso para ofrecer soluciones adaptadas a sus necesidades específicas.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="bi bi-graph-up-arrow"></i>
+            </div>
+            <h3>Resultados Exitosos</h3>
+            <p>Alta tasa de éxito en nuestros casos gracias a estrategias legales efectivas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="servicios" class="services-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Nuestras <span class="text-primary">Áreas de Especialización</span></h2>
+        <p class="lead">Brindamos asesoramiento integral en distintas áreas del derecho</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-building"></i>
+            </div>
+            <h3>Derecho Corporativo</h3>
+            <p>Asesoramiento en constitución de empresas, contratos comerciales, fusiones y adquisiciones.</p>
+            <a href="#contacto" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-briefcase"></i>
+            </div>
+            <h3>Derecho Laboral</h3>
+            <p>Representación en conflictos laborales, negociación de convenios y asesoramiento en normativa laboral.</p>
+            <a href="#contacto" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-house"></i>
+            </div>
+            <h3>Derecho Inmobiliario</h3>
+            <p>Compraventa de inmuebles, arrendamientos, propiedad horizontal y urbanismo.</p>
+            <a href="#contacto" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-people-fill"></i>
+            </div>
+            <h3>Derecho de Familia</h3>
+            <p>Divorcios, separaciones, custodia de menores, pensiones alimenticias y herencias.</p>
+            <a href="#contacto" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-bank"></i>
+            </div>
+            <h3>Derecho Administrativo</h3>
+            <p>Recursos administrativos, procedimientos sancionadores y contratación pública.</p>
+            <a href="#contacto" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-shield"></i>
+            </div>
+            <h3>Derecho Penal</h3>
+            <p>Defensa penal, representación de víctimas y asesoramiento en delitos económicos.</p>
+            <a href="#contacto" class="service-link">Consultar <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Testimonios Nuevo Carrusel -->
+<section id="nuevoTestimonios" class="testimonials-section">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2>Lo que dicen <span class="text-primary">Nuestros Clientes</span></h2>
+      <p class="lead">Historias de éxito y satisfacción</p>
+    </div>
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>"ProActa Abogados resolvió mi caso de manera excepcional. Su atención personalizada y profesionalismo hicieron toda la diferencia. Recomendaría sus servicios sin dudarlo."</p>
+              <div class="testimonial-author">
+                <h4>Carlos Méndez</h4>
+                <span>Cliente Corporativo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>"Gracias a ProActa Abogados pude resolver un complejo problema inmobiliario. Su equipo demostró un conocimiento profundo y una dedicación impecable durante todo el proceso."</p>
+              <div class="testimonial-author">
+                <h4>Ana Gómez</h4>
+                <span>Cliente Particular</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-card">
+            <div class="testimonial-content">
+              <div class="testimonial-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p>"Su asesoramiento en temas laborales fue fundamental para nuestra empresa. Profesionales altamente capacitados que ofrecen soluciones prácticas y eficaces."</p>
+              <div class="testimonial-author">
+                <h4>Miguel Torres</h4>
+                <span>Director de Recursos Humanos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Botones de control para el carrusel -->
+      <div class="testimonial-controls">
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <i class="bi bi-arrow-left"></i>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <i class="bi bi-arrow-right"></i>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Call to Action Section -->
+  <section id="contacto" class="cta-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="cta-content">
+            <h2>¿Necesita asesoramiento legal?</h2>
+            <p>Contáctenos hoy mismo para una consulta inicial sin compromiso. Nuestro equipo de abogados especializados está listo para ayudarle.</p>
+            <div class="cta-info">
+              <div class="cta-info-item">
+                <i class="bi bi-telephone"></i>
+                <span>+34 912 345 678</span>
+              </div>
+              <div class="cta-info-item">
+                <i class="bi bi-envelope"></i>
+                <span>info@proactaabogados.com</span>
+              </div>
+              <div class="cta-info-item">
+                <i class="bi bi-geo-alt"></i>
+                <span>Calle Gran Vía 123, 28013 Madrid</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="contact-form-container">
+            <form id="contactForm" class="contact-form">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Nombre completo *" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Correo electrónico *" required>
+              </div>
+              <div class="mb-3">
+                <input type="tel" class="form-control" id="phone" placeholder="Teléfono">
+              </div>
+              <div class="mb-3">
+                <select class="form-select" id="service" required>
+                  <option value="" selected disabled>Seleccione el área de consulta *</option>
+                  <option value="corporativo">Derecho Corporativo</option>
+                  <option value="laboral">Derecho Laboral</option>
+                  <option value="inmobiliario">Derecho Inmobiliario</option>
+                  <option value="familia">Derecho de Familia</option>
+                  <option value="administrativo">Derecho Administrativo</option>
+                  <option value="penal">Derecho Penal</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="message" rows="4" placeholder="Mensaje *" required></textarea>
+              </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="privacyPolicy" required>
+                <label class="form-check-label" for="privacyPolicy">
+                  Acepto la política de privacidad y el tratamiento de mis datos
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Enviar Consulta</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-info">
+            <h3>ProActa <span>Abogados</span></h3>
+            <p>Ofrecemos servicios legales integrales con un enfoque personalizado y comprometido con la excelencia.</p>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <h4>Enlaces</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h4>Servicios</h4>
+          <ul class="footer-links">
+            <li><a href="#servicios">Derecho Corporativo</a></li>
+            <li><a href="#servicios">Derecho Laboral</a></li>
+            <li><a href="#servicios">Derecho Inmobiliario</a></li>
+            <li><a href="#servicios">Derecho de Familia</a></li>
+            <li><a href="#servicios">Derecho Administrativo</a></li>
+            <li><a href="#servicios">Derecho Penal</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4>Contacto</h4>
+          <div class="footer-contact">
+            <p><i class="bi bi-geo-alt"></i> Calle Gran Vía 123, 28013 Madrid</p>
+            <p><i class="bi bi-telephone"></i> +34 912 345 678</p>
+            <p><i class="bi bi-envelope"></i> info@proactaabogados.com</p>
+            <p><i class="bi bi-clock"></i> Lun-Vie: 9:00 - 18:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>&copy; 2025 ProActa Abogados. Todos los derechos reservados.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p>Política de Privacidad | Aviso Legal | Cookies</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="bi bi-arrow-up"></i>
+  </a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
